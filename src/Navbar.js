@@ -1,8 +1,15 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { navigation } from './NavigationList'
+// import navigation from './NavigationList'
 import ProfileDropdown from './ProfileDropdown'
 import MobileNavBar from './MobileNavBar'
+
+const navigation = [
+    { name: 'Dashboard', href: '#', current: true },
+    { name: 'Team', href: '#', current: false },
+    { name: 'Projects', href: '#', current: false },
+    { name: 'Calendar', href: '#', current: false },
+];
 
 
 function classNames(...classes) {

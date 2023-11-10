@@ -1,7 +1,14 @@
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
+const navigation = [
+    { name: 'Dashboard', href: '#', current: true },
+    { name: 'Team', href: '#', current: false },
+    { name: 'Projects', href: '#', current: false },
+    { name: 'Calendar', href: '#', current: false },
+];
 
-export default function MobileNavBar(navigation, classNames) {
+
+export default function MobileNavBar(navigations, classNames) {
   return (
     <Disclosure.Panel className="sm:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">
