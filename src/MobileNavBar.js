@@ -7,8 +7,10 @@ const navigation = [
     { name: 'Calendar', href: '#', current: false },
 ];
 
-
-export default function MobileNavBar(navigations, classNames) {
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
+export default function MobileNavBar(navigations) {
   return (
     <Disclosure.Panel className="sm:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">

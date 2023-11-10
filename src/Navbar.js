@@ -74,7 +74,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <MobileNavBar navigation={navigation} classNames={classNames} />
+          <MobileNavBar navigation={navigation} />
         </>
       )}
     </Disclosure>
