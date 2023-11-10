@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { navigation } from './NavigationList'
+import ProfileDropdown from './ProfileDropdown'
 
 
 function classNames(...classes) {
@@ -61,9 +62,11 @@ export default function Example() {
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
+               <ProfileDropdown className={classNames} />       
               </div>
             </div>
           </div>
+
         </>
       )}
     </Disclosure>
