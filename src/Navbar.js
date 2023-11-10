@@ -2,6 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { navigation } from './NavigationList'
 import ProfileDropdown from './ProfileDropdown'
+import MobileNavBar from './MobileNavBar'
 
 
 function classNames(...classes) {
@@ -66,7 +67,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-
+          <MobileNavBar navigation={navigation} classNames={classNames} />
         </>
       )}
     </Disclosure>
