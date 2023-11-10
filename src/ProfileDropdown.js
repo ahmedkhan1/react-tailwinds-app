@@ -1,7 +1,7 @@
 import { Menu, Transition } from '@headlessui/react'
 import React, { Fragment } from 'react'
 
-export default function ProfileDropdown() {
+export default function ProfileDropdown(classNames) {
   return (
     <Menu as="div" className="relative ml-3">
         <div>
