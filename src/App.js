@@ -14,10 +14,10 @@ function App() {
         </div>
         <div className='Sidebar-nav-links-container'>
           <ul>
-            <li><a href='/dashboard'></a>Dashboard</li>
-            <li><a href='/users'></a>Users</li>
-            <li><a href='/contacts'></a>Contacts</li>
-            <li><a href='/settings'></a>Settings</li>
+            <li><a href='/dashboard'>Dashboard</a></li>
+            <li><a href='/users'>Users</a></li>
+            <li><a href='/contacts'>Contacts</a></li>
+            <li><a href='/settings'>Settings</a></li>
           </ul>
         </div>
       </div>
