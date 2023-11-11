@@ -12,6 +12,9 @@ function App() {
         <div className='Sidebar-company-logo'>
           <h1>Company Logo</h1>
         </div>
+        <div className='Sidebar-nav-links'>
+    
+        </div>
       </div>
     </div>
   );
