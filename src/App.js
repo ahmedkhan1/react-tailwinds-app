@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p> Tailwinds App </p>
         <Navbar />
       </header>
       <div className='Sidebar-container'>
