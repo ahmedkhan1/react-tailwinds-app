@@ -17,6 +17,7 @@ function App() {
             <li><a href='/dashboard'>Dashboard</a></li>
             <li><a href='/users'>Users</a></li>
             <li><a href='/contacts'>Contacts</a></li>
+            <hr />
             <li><a href='/settings'>Settings</a></li>
           </ul>
         </div>
