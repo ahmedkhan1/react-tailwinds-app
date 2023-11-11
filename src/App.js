@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar';
 
 function App() {
+  const heading = "";
   return (
     <div className="App">
       <header className="App-header">
@@ -23,7 +24,7 @@ function App() {
         </div>
       </div>
       <div className='sidebar-content-container'>
-        <h1>heading</h1>
+        <h1>{heading}</h1>
       </div>
     </div>
   );
