@@ -15,7 +15,7 @@ function App() {
         <div className='Sidebar-nav-links-container'>
           <ul>
             <li><a href='/dashboard'></a>Dashboard</li>
-            <li><a href='#'></a>Dashboard</li>
+            <li><a href='/users'></a>Users</li>
           </ul>
         </div>
       </div>
