@@ -13,7 +13,9 @@ function App() {
           <h1>Company Logo</h1>
         </div>
         <div className='Sidebar-nav-links-container'>
-
+          <ul>
+            <li><a href='#'></a></li>
+          </ul>
         </div>
       </div>
     </div>
