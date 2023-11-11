@@ -22,6 +22,9 @@ function App() {
           </ul>
         </div>
       </div>
+      <div className='sidebar-content-container'>
+
+      </div>
     </div>
   );
 }
