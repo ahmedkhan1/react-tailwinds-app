@@ -9,7 +9,9 @@ function App() {
         <Navbar />
       </header>
       <div className='Sidebar-container'>
-
+        <div className='Sidebar-company-logo'>
+          <h1>Company Logo</h1>
+        </div>
       </div>
     </div>
   );
