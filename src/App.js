@@ -8,6 +8,9 @@ function App() {
         <p> Tailwinds App </p>
         <Navbar />
       </header>
+      <div className='Sidebar-container'>
+
+      </div>
     </div>
   );
 }
