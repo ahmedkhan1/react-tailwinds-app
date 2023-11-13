@@ -24,6 +24,9 @@ function App() {
       </div>
       <div className='sidebar-content-container'>
         <h1>{heading}</h1>
+        <div className='total-users-container'>
+
+        </div>
       </div>
     </div>
   );
