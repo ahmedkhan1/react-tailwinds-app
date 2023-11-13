@@ -27,10 +27,8 @@ function App() {
         <h1>{heading}</h1>
 
         <Cards heading={"Total Users"} />
-        <div className='total-revenue-container'>
-          <h1>Total revenue:</h1>
-          <div className='toal-revenue-charts'></div>
-        </div>
+
+        <Cards heading={"Total Users"} />
       </div>
     </div>
   );
