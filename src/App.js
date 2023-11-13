@@ -26,7 +26,7 @@ function App() {
         <h1>{heading}</h1>
         <div className='total-users-container'>
           <h1>Total Users:</h1>
-          
+          <div className='toal-users-charts'></div>
         </div>
       </div>
     </div>
