@@ -31,7 +31,7 @@ function App() {
 
         <div className='total-revenue-container'>
           <h1>Total revenue:</h1>
-          <div className='toal-users-charts'></div>
+          <div className='toal-revenue-charts'></div>
         </div>
       </div>
     </div>
