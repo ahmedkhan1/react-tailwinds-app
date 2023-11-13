@@ -28,6 +28,11 @@ function App() {
           <h1>Total Users:</h1>
           <div className='toal-users-charts'></div>
         </div>
+
+        <div className='total-revenue-container'>
+          <h1>Total Users:</h1>
+          <div className='toal-users-charts'></div>
+        </div>
       </div>
     </div>
   );
