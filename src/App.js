@@ -25,7 +25,7 @@ function App() {
       <div className='sidebar-content-container'>
         <h1>{heading}</h1>
 
-
+        <Cards />
         <div className='total-revenue-container'>
           <h1>Total revenue:</h1>
           <div className='toal-revenue-charts'></div>
