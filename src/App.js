@@ -28,7 +28,7 @@ function App() {
 
         <Cards heading={"Total Users"} />
 
-        <Cards heading={"Total Users"} />
+        <Cards heading={"Total revenue"} />
       </div>
     </div>
   );
