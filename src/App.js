@@ -3,7 +3,24 @@ import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 
 function App() {
-
+  const list = [
+    {
+      name: "Dashboard",
+      link: "/dashboard"
+    },
+    {
+      name: "Users",
+      link: "/users"
+    },
+    {
+      name: "Contacts",
+      link: "/contacts"
+    },
+    {
+      name: "Settings",
+      link: "/settings"
+    }
+  ];
   return (
     <div className="App">
       <header className="App-header">
