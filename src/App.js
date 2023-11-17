@@ -13,6 +13,7 @@ function App() {
         <div className='Sidebar-company-logo'>
           <h1>Company Logo</h1>
         </div>
+        <hr />
         <div className='Sidebar-nav-links-container'>
           <ul>
             <li><a href='/dashboard'>Dashboard</a></li>
@@ -25,7 +26,7 @@ function App() {
       </div>
       <div className='sidebar-content-container'>
         <h1>{heading}</h1>
-
+        <hr />
         <Cards heading={"Total Users"} />
 
         <Cards heading={"Total revenue"} />
