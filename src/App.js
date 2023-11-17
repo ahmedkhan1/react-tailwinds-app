@@ -1,5 +1,6 @@
 import './App.css';
 import Cards from './Cards';
+import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 
 function App() {
@@ -25,11 +26,7 @@ function App() {
         </div>
       </div>
       <div className='sidebar-content-container'>
-        <h1>{heading}</h1>
-        <hr />
-        <Cards heading={"Total Users"} />
-
-        <Cards heading={"Total revenue"} />
+        <Dashboard heading={""} />
       </div>
     </div>
   );
