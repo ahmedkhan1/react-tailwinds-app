@@ -1,5 +1,4 @@
 import './App.css';
-import Cards from './Cards';
 import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 
