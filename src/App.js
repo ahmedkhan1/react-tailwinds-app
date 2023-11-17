@@ -4,7 +4,7 @@ import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 
 function App() {
-  const heading = "";
+
   return (
     <div className="App">
       <header className="App-header">
