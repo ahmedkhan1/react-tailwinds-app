@@ -26,7 +26,7 @@ function App() {
         </div>
       </div>
       <div className='sidebar-content-container'>
-        <Dashboard heading={""} />
+        <Dashboard heading={"Dashboard"} />
       </div>
     </div>
   );
