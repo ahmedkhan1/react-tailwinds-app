@@ -34,7 +34,9 @@ function App() {
         <div className='Sidebar-nav-links-container'>
           <ul>
             {list.map(res=>( 
-              <li key={res}><a href={res.link}>{res.name}</a></li>)
+              <li key={res}>
+                <a href={res.link}>{res.name}</a>
+              </li>)
             )}
           </ul>
         </div>
