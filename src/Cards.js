@@ -7,7 +7,7 @@ export default function Cards({heading}) {
         heading &&
         <h1>{heading}:</h1>
       }
-        <div className='toal-charts'></div>
+      <div className='toal-charts'></div>
     </div>
   )
 }
