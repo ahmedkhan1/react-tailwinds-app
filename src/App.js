@@ -28,8 +28,8 @@ function App() {
       </header>
       <div className='Sidebar-container'>
         <div className='Sidebar-company-logo'>
-          <h1>Company Logo</h1>
-        </div>
+          <img src="/assets/logo" />
+        </div> 
         <hr />
         <div className='Sidebar-nav-links-container'>
           <ul>
