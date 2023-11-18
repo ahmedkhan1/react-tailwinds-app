@@ -33,6 +33,7 @@ function App() {
         <hr />
         <div className='Sidebar-nav-links-container'>
           <ul>
+            {list.map(res=>( <li><a href='/dashboard'>Dashboard</a></li>))}
             <li><a href='/dashboard'>Dashboard</a></li>
             <li><a href='/users'>Users</a></li>
             <li><a href='/contacts'>Contacts</a></li>
